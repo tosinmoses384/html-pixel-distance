@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple ui</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #image {
+            border: 1px solid #ccc;
+            cursor: crosshair;
+        }
+        #result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="image"  src="image.png" alt="click  to measure distance">
+
+    <div id="result">Click two points on the image to calculate the distance.</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
